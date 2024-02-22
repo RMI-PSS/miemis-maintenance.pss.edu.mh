@@ -1,2 +1,2 @@
-# pacific-emis.org
-The Pacific EMIS project website
+# maintenance.pacific-emis.org
+A basic maintenance page for the Pacific EMIS projects
