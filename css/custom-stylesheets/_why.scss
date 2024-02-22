@@ -1,0 +1,21 @@
+#why{
+  width: 100%;
+  height: auto;
+  background: url("../img/uo.png") no-repeat center top scroll;
+  background-size: cover;
+  -webkit-background-size: cover;
+
+  .row{
+    margin-bottom: 0;
+    padding-bottom: 100px;
+  }
+
+  .content{
+    @media only screen and (max-width: 600px) {
+      margin-bottom: 50px;
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
+}

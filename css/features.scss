@@ -1,0 +1,131 @@
+//variables
+@import "custom-stylesheets/variables";
+
+header{
+  background: url("../img/uo3.png") no-repeat fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  .overlay{
+    background-color: rgba(60, 100, 180, 0.25);
+  }
+}
+
+.feature-intro{
+  margin-top: 150px;
+  h1{
+    font-weight: 800;
+    color: #ffffff;
+    span{
+      color: $accent-color;
+    }
+  }
+  h5{
+    color: $font-color-light;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 0 110px;
+    margin: 25px 0 15px 0;
+    @media only screen and (max-width: 992px) {
+      padding: 0;
+    }
+  }
+  .btn-small{
+    margin: 20px 0;
+    color: $font-color;
+    background-color: $accent-color;
+  }
+}
+
+.feature-intro-small{
+  margin-top: 0px;
+  h1{
+    font-weight: 800;
+    color: #ffffff;
+    span{
+      color: $accent-color;
+    }
+  }
+  h5{
+    color: $font-color-light;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 0 110px;
+    margin: 25px 0 15px 0;
+    @media only screen and (max-width: 992px) {
+      padding: 0;
+    }
+  }
+  .btn-small{
+    margin: 20px 0;
+    color: $font-color;
+    background-color: $accent-color;
+  }
+}
+
+#fsl{
+  background-color: $secondary-color;
+  padding-bottom: 100px;
+  img{
+    width: 90%;
+  }
+}
+
+.feature-title{
+  margin: 0;
+  padding: $feature-title-padding;
+}
+
+.little-text{
+  padding: 0 150px;
+  text-align: center;
+  @media only screen and (max-width: 992px) {
+      padding: 0 25px;
+    }
+}
+
+
+.fsl-table{
+  table{
+    margin-bottom: 50px;
+    padding: 0 50px;
+    th{
+      color: $primary-color;
+      padding: 15px 25px;
+    }
+    td{
+      padding: 10px 25px;
+      img{
+        width: 50px;
+        float: right;
+      }
+    }
+    .topper{
+      color: $primary-color;
+    }
+    .sub{
+      padding-left: 50px;
+      position: relative;
+      &:before{
+        content: "";
+        position: absolute;
+        width: 7px;
+        left: 25px;
+        bottom: 48%;
+        border-bottom: 1px solid $font-color;
+      }
+    }
+  }
+
+  p{
+    margin-bottom: 50px;
+  }
+  .subtitle{
+    margin-top: 25px;
+  }
+  a{
+    color: $accent-color;
+    &:hover{
+      color: darken($accent-color, 5%);
+    }
+  }
+}

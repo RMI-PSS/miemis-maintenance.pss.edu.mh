@@ -1,0 +1,78 @@
+html{
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6, p, li{
+  color: $font-color;
+}
+
+.ease-animation{
+  -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+
+.fixed{
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 999;
+}
+.top{
+  top: 0;
+}
+.bottom{
+  bottom: 0;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+
+.overlay{
+  width: 100%;
+  min-height: inherit;
+  height: inherit;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+
+section{
+  .section-title{
+    margin: 0;
+    padding: $section-title-padding;
+    font-weight: lighter;
+    span{
+      color: $accent-color;
+      font-weight: bold;
+    }
+  }
+}
+
+section{
+  .content-title{
+    margin: 0;
+    padding: $content-title-padding;
+    font-weight: lighter;
+    span{
+      color: $accent-color;
+      font-weight: bold;
+    }
+  }
+}
+
+.subtitle{
+  margin: $sub-title-margin;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $subtitle-color;
+}
+
+.btn-small{
+  background-color: $btn-color;
+  &:hover, &:focus{
+    background-color: darken($btn-color, 10%);
+  }
+}
+

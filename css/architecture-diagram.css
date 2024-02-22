@@ -1,0 +1,74 @@
+header {
+  background: url("../img/uo3.png") no-repeat fixed;
+  background-size: cover;
+  min-height: 370px;
+  height: auto; }
+  header .overlay {
+    background-color: rgba(60, 100, 180, 0.25); }
+
+.intro {
+  margin-top: 75px; }
+  .intro h1, .intro h5 {
+    color: #ffffff; }
+  .intro h1 {
+    font-size: 2.5em;
+    line-height: 1.25; }
+    .intro h1 span {
+      color: #fab400; }
+  .intro h5 {
+    line-height: 1;
+    letter-spacing: .25px; }
+
+.diagram {
+  width: 100%;
+  padding: 100px 50px 100px 50px; }
+  .diagram img {
+    width: 100%; }
+
+@media only screen and (max-width: 1250px) {
+  .rm-intro-row {
+    margin-bottom: 0; } }
+
+.roadmap-header {
+  background: url("../img/blue.png") no-repeat fixed;
+  background-size: cover; }
+
+.roadmap {
+  width: 100%;
+  padding-bottom: 100px; }
+  .roadmap .row {
+    margin-bottom: 0; }
+  .roadmap img {
+    width: 100%; }
+  .roadmap .rm-intro {
+    line-height: 1.5;
+    padding: 50px 125px;
+    text-align: center; }
+    @media only screen and (max-width: 992px) {
+      .roadmap .rm-intro {
+        padding: 20px 40px;
+        text-align: left; } }
+  .roadmap .year h5 {
+    color: #1266b9;
+    font-weight: 600;
+    margin: 50px 0 25px 0; }
+  .roadmap .year .plans ul {
+    display: inline; }
+    .roadmap .year .plans ul li {
+      display: inline-block;
+      line-height: 1.5;
+      margin-left: 15px;
+      color: #1266b9; }
+      .roadmap .year .plans ul li .rm-icon {
+        width: 40px;
+        position: relative;
+        top: 15px;
+        left: -10px;
+        margin-left: 0; }
+        @media only screen and (max-width: 500px) {
+          .roadmap .year .plans ul li .rm-icon {
+            margin-bottom: 15px; } }
+  .roadmap .year .plans P {
+    margin-left: 75px; }
+
+/*# sourceMappingURL=architecture-diagram.css.map */

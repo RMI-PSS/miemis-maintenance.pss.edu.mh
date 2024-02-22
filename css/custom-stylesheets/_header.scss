@@ -1,0 +1,49 @@
+header{
+  width: 100%;
+  min-height: 750px;
+  height: auto;
+  background: $header-background;
+  -webkit-background-size: cover;
+  background-size: cover;
+
+  .row{
+  padding:100px 0;
+  }
+}
+
+.header-small {
+  min-height: 0px;
+}
+
+.intro{
+  margin-top: 150px;
+  h1, h5{
+    color: #ffffff;
+  }
+  h1{
+    span{
+      color: $accent-color;
+    }
+  }
+  h5{
+    line-height: 1.25;
+    letter-spacing: .5px;
+  }
+  .btn-small{
+    margin: 20px 0;
+  }
+}
+
+.intro-img{
+  img{
+    padding: 25px;
+  }
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
+}
+
+
+
+
+

@@ -1,0 +1,42 @@
+#features{
+  padding-bottom: 100px;
+  @media only screen and (max-width: 600px) {
+    padding-bottom: 50px;
+  }
+  .row{
+    margin-bottom: 25px;
+    @media only screen and (max-width: 600px) {
+      margin-bottom: 50px;
+    }
+    &:nth-child(even){
+      @media only screen and (max-width: 600px) {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+    }
+  }
+  .text-wrapper{
+    padding-top: 75px;
+    @media only screen and (max-width: 991px) {
+      padding-top: 25px;
+    }
+    @media only screen and (max-width: 600px) {
+      padding-top: 0;
+    }
+  }
+  img{
+    padding: 25px;
+    @media only screen and (max-width: 600px) {
+      padding: 0;
+    }
+  }
+  .download-btn{
+    width: 125px;
+    height: auto;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    img{
+      padding: 0;
+    }
+  }
+}
